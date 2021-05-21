@@ -1,0 +1,119 @@
+.sign-content-container ul li {
+  list-style: none;
+  display: flex;
+}
+.sign-content-container,.sign-form-container {
+width: 50%;
+}
+
+.sign-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-container {
+  align-items: center;
+  background-color: #e9ebec;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 40px 40px 20px;
+    width: 950px;
+}
+.sign-container form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #00000029;
+  border-radius: 8px;
+  background: #fff;
+  padding: 2px 10px;
+  font-size: 18px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.sign-container form input::placeholder {
+  padding: 2px 2px;
+  color: #00000073;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.sign-container form input:hover,.sign-container form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.sign-container .btn-mobile button {
+  color: #00000073;
+  border-color: #00000073;
+  border-radius:8px;
+}
+.sign-container .btn-mobile button:hover {
+  color: #000;
+  border-color: #000;
+}
+.sign-content-container ul li:last-child a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #00000085;
+  padding-left: 20px;
+}
+ .sign-container span {
+  font-size: 16px;
+} 
+.sign-container a {
+  font-size: 25px;
+}
+.inner-sign-form .btn-mobile {
+display: block;
+margin: 10px auto;
+text-align: center;
+}
+.inner-sign-form .btn-mobile button {
+  padding: 10px 55px;
+}
+.inner-sign-form form {
+  text-align: center;
+}
+.account-creation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid gainsboro;
+}
+.account-creation a {
+  font-size: 16px;
+  text-decoration: none;
+  margin: 20px 0px;
+}
+.account-creation a:first-child {
+  color: #fff;
+  background-color: #11b4ea;
+  border:1px solid #11b4ea;
+  border-radius: 8px;
+  padding: 15px 25px;
+}
+.account-creation a:last-child {
+  color: #fff;
+  background-color: #4caf50;
+  border:1px solid #4caf50;
+  border-radius: 8px;
+  padding: 15px 25px;
+}
+
+.sign-content-container ul li a.navbar-logo {
+  font-size: 80px;
+  color: #000;
+}
+.sign-content-container ul li a.navbar-logo i {
+  font-size: 2.8rem;
+}
+.account-creation a:first-child:hover {
+  color: #11b4ea;
+  background-color: #fff;
+}
+.account-creation a:last-child:hover {
+  color: #4caf50;
+  background-color: #fff;
+}
